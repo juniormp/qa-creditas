@@ -2,6 +2,7 @@ require "capybara/cucumber"
 require "selenium-webdriver"
 require "faker"
 require "cpf_faker"
+require "site_prism"
 
 Capybara.register_driver :selenium do |app|
   Capybara::Selenium::Driver.new(
