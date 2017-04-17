@@ -1,5 +1,6 @@
 Feature: Home equity loan
 
+@simulate_home_equity_loan
 Scenario: Simulate home equity loan
   Given I access the Creditas website
   When I click on Simular Emprestimo
